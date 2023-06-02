@@ -167,6 +167,14 @@ ion-icon:hover {
     font-size: 2rem;
 }
 
+.text {
+    padding: 5;
+    max-width: 50rem;
+    font-size: 1.8rem;
+    margin: 0 auto;
+    text-align: justify;
+}
+
 .text-center {
     padding: 5;
     max-width: 50rem;
