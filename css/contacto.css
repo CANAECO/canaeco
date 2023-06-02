@@ -231,7 +231,8 @@ ion-icon:hover {
     }
 
     .text-center-responsive {
-        padding-bottom: 13%;
+        padding-bottom: 8%;
+        max-width: 90%;
         text-justify: inter-word;
     }
 
@@ -277,8 +278,10 @@ ion-icon:hover {
         margin-inline-start: 25.5%;
     }
 
-    .text-center-responsive {
+     .text-center-responsive {
         padding-bottom: 13%;
+        max-width: 90%;
+        font-size: 1.5rem;
         text-justify: inter-word;
     }
 
