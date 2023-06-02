@@ -513,14 +513,12 @@ ion-icon:hover {
         font-size: 2rem;
     }
 
-    .Texto-Principal-div {
-        text-align: center;
+    .Texto-Principal {
+        text-align: justify;
         margin: 0 auto;
         padding-left: 8%;
         padding-right: 8%;
-        padding-top: 10%;
-        padding-bottom: 4%;
-        font-size: 2rem;
+        margin-top: 15px;
     }
 
     .grid-texto-responsive {
