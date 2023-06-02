@@ -319,32 +319,19 @@ ion-icon:hover {
         margin-inline-start: 25.5%;
     }
 
-    .banner-img,
-    .img-fluid {
+    .imagen-portada-responsive {
+        max-width: 100%;
         width: 100%;
         height: auto;
-    }
-
-    .center-img {
-        width: 100%;
-        height: auto;
-        top: 40%;
-    }
-
-    .banner-texto {
-        width: 105%;
-        height: auto;
-        top: 65%;
-        padding-right: 5%;
-        margin-left: 0.5%;
     }
 
     .Texto-Principal-div {
         text-align: center;
-        margin: 0;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: 15px;
+        margin: 0 auto;
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: 5%;
+        padding-bottom: 4%;
     }
 
     .Texto-Principal {
@@ -510,23 +497,20 @@ ion-icon:hover {
         margin-inline-start: 25.5%;
     }
 
-    .banner-img,
-    .img-fluid {
+    .imagen-portada-responsive {
+        max-width: 100%;
         width: 100%;
-        height: auto;
+        height: 320px;
     }
-
-    .center-img {
-        width: 100%;
-        height: auto;
-        top: 30%;
-    }
-
-    .banner-texto {
-        width: 104%;
-        height: auto;
-        top: 50%;
-        padding-right: 4%;
+    
+    .Texto-Principal-div {
+        text-align: center;
+        margin: 0 auto;
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: 10%;
+        padding-bottom: 4%;
+        font-size: 2rem;
     }
 
     .Texto-Principal-div {
@@ -534,15 +518,9 @@ ion-icon:hover {
         margin: 0 auto;
         padding-left: 8%;
         padding-right: 8%;
-        margin-top: 15px;
-    }
-
-    .Texto-Principal {
-        text-align: justify;
-        margin: 0 auto;
-        padding-left: 8%;
-        padding-right: 8%;
-        margin-top: 15px;
+        padding-top: 10%;
+        padding-bottom: 4%;
+        font-size: 2rem;
     }
 
     .grid-texto-responsive {
