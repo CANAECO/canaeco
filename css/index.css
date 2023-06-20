@@ -608,10 +608,10 @@ ion-icon:hover {
         margin-right: 59%;
     }
 
-    .banner-img {
+     .banner-img {
         max-width: 100%;
         width: 100%;
-        height: 450px;
+        height: 430px;
         object-fit: cover;
     }
 
@@ -632,7 +632,7 @@ ion-icon:hover {
         padding-left: 1%;
         padding-right: 5%;
     }
-
+    
     .arrow-up,
     .arrow-down {
         visibility: hidden;
