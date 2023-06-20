@@ -389,11 +389,10 @@ ion-icon:hover {
         margin-inline-start: 25.5%;
     }
 
-      .banner-img,
-    .img-fluid {
-        width: 50rem;
-        height: 53rem;
-        object-fit: fill;
+    .imagen-portada-responsive {
+        width: 100%;
+        height: 55rem;
+        object-fit: cover;
     }
 
     .center-img {
