@@ -591,24 +591,24 @@ ion-icon:hover {
         margin-inline-start: 25.5%;
     }
 
-    .banner-img,
-    .img-fluid {
+    .imagen-portada-responsive{
         width: 100%;
-        height: 20rem;
+        height: 26.5rem;
+        object-fit: cover;
     }
 
     .center-img {
         width: 50%;
         height: auto;
-        top: 32%;
+        top: 40%;
     }
 
     .banner-texto {
-        width: 104%;
+        width: 100%;
         height: auto;
-        top: 55%;
-        padding-right: 5%;
-        padding-left: 2%;
+        top: 65%;
+        padding-right: 4%;
+        padding-left: 1%;
     }
 
     .arrow-up, .arrow-down {
