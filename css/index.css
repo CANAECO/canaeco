@@ -237,6 +237,13 @@ ion-icon:hover {
         text-justify: inter-word;
     }
 
+        .grid-texto {
+        font-size: 3.4rem;
+        text-align: center;
+        color: var(--clr-Secundario);
+        font-weight: 600;
+    }
+
     .grid-container {
         display: grid;
         text-align: center;
@@ -327,9 +334,16 @@ ion-icon:hover {
         width: 100%;
     }
 
+        .titulo-cuidadobarras {
+        font-size: 3.4rem;
+        text-align: center;
+        color: var(--clr-Secundario);
+        font-weight: 600;
+    }
+
     .Texto-CuidadoBarras {
-        padding-top: 1%;
-        font-size: 1.5rem;
+        padding-top: 2%;
+        font-size: 1.7rem;
         margin-left: 60px;
         margin-right: 60px;
         text-align: center;
@@ -412,7 +426,14 @@ ion-icon:hover {
         margin-right: 5%;
         margin-top: 15px;
     }
-
+    
+    .grid-texto {
+        font-size: 3.4rem;
+        text-align: center;
+        color: var(--clr-Secundario);
+        font-weight: 600;
+    }
+    
     .grid-container {
         display: grid;
         text-align: center;
@@ -505,9 +526,11 @@ ion-icon:hover {
         padding-bottom: 12%;
     }
 
-    .titulo-cuidadobarras {
-        width: 100%;
+      .titulo-cuidadobarras {
+        font-size: 3.4rem;
         text-align: center;
+        color: var(--clr-Secundario);
+        font-weight: 600;
     }
 
     .Texto-CuidadoBarras {
@@ -612,6 +635,10 @@ ion-icon:hover {
 
     .grid-texto-responsive {
         padding-bottom: 8%;
+        font-size: 2.1rem;
+        text-align: center;
+        color: var(--clr-Secundario);
+        font-weight: 600;
     }
 
     .grid-container {
@@ -692,11 +719,19 @@ ion-icon:hover {
         padding-bottom: 12%;
     }
 
+        .titulo-cuidadobarras{
+        font-size: 2.1rem;
+        text-align: center;
+        color: var(--clr-Secundario);
+        font-weight: 600;
+    }
+
     .Texto-CuidadoBarras {
         text-align: center;
         margin: 0 auto;
         padding-left: 8%;
         padding-right: 8%;
+        padding-top: 3%;
     }
 
     .container-barras img {
