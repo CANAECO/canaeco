@@ -594,6 +594,12 @@ ion-icon:hover {
 /* Celular */
 @media (min-width: 350px) and (max-width: 767.98px) {
 
+    body {
+        padding-top: 0;
+        max-width: 100%;
+        margin-right: 0;
+    }
+    
     h1 {
         text-align: center;
     }
@@ -608,10 +614,10 @@ ion-icon:hover {
         margin-right: 59%;
     }
 
-     .banner-img {
+    .banner-img {
         max-width: 100%;
         width: 100%;
-        height: 430px;
+        height: 525px;
         object-fit: cover;
     }
 
