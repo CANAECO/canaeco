@@ -159,15 +159,8 @@ ion-icon:hover {
     color: var(--clr-Secundario);
 }
 
-.banner-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-
 .banner-img {
-    width: 33.33%;
+    width: 100%;
     height: 729px;
     object-fit: cover;
 }
@@ -433,7 +426,7 @@ ion-icon:hover {
     }
 
     .banner-img {
-        width: 33.33%;
+        width: 100%;
         height: 970px;
         object-fit: cover;
     }
@@ -452,8 +445,7 @@ ion-icon:hover {
         margin-right: 66%;
     }
 
-    .banner-img,
-    .img-fluid {
+    .banner-img {
         max-width: 100%;
         width: 100%;
         height: 40.5rem;
@@ -738,8 +730,7 @@ ion-icon:hover {
         margin-right: 59%;
     }
 
-    .banner-img,
-    .img-fluid {
+    .banner-img {
         max-width: 100%;
         width: 100%;
         height: 465px;
