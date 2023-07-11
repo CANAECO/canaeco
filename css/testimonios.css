@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --clr-Principal: #CC8661;
+    --clr-Secundario: #334A61;
+    --clr-SecundarioVariante: #36475B;
+    --clr-Fondo: #F9F8EC;
+    --clr-FondoSecundario: #FFF1DE;
+    --clr-LogoFondo: #E5DAD3;
+    --clr-Aside-Texto: White;
+    --clr-Texto: Black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+input,
+textarea,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: var(--clr-Secundario);
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+    text-align: center;
+    color: var(--clr-Secundario);
+    font-weight: 600;
+}
+
+h3 {
+    color: var(--clr-Secundario);
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+body {
+    min-height: 100vh;
+    height: auto;
+    padding-top: 88px;
+    scroll-behavior: smooth;
+    background-image: linear-gradient(135deg, #F9F8EC, #FFF1DE);
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+}
+
+@keyframes fanimado {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.navbar {
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+}
+
+.navbar-light {
+    background-color: var(--clr-Principal);
+}
+
+.nav-link {
+    color: var(--clr-Fondo);
+    font-weight: 600;
+    font-size: 1.15rem;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: var(--clr-Secundario);
+}
+
+.nav-item {
+    position: relative;
+}
+
+.container-fluid {
+    background-color: var(--clr-Principal);
+    padding-left: 2%;
+    padding-right: 3%;
+}
+
+.badge {
+    font-size: small;
+    position: relative;
+}
+
+.badge-light {
+    background-color: var(--clr-Secundario);
+}
+
+.numerito {
+    margin-bottom: 85%;
+    right: 25%;
+}
+
+.btn {
+    background-color: var(--clr-Principal) !important;
+    color: var(--clr-Fondo);
+    transition: color 0.3s;
+}
+
+.btn:hover {
+    color: var(--clr-Secundario);
+}
+
+ion-icon {
+    color: var(--clr-Fondo);
+    font-size: 30px;
+    transition: color 0.3s;
+}
+
+ion-icon:hover {
+    color: var(--clr-Secundario);
+}
+
+.inicio {
+    padding-bottom: 7%;
+}
+
+.arrow-up {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: solid;
+    border-width: 0 10px 10px 0;
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    position: absolute;
+    top: 18%;
+    left: 82%;
+    border-bottom-color: var(--clr-Secundario);
+    border-right-color: var(--clr-Principal);
+}
+
+.arrow-down {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: solid;
+    border-width: 0 10px 10px 0;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    position: absolute;
+    top: 67%;
+    left: 11%;
+    border-bottom-color: var(--clr-Principal);
+    border-right-color: var(--clr-Secundario);
+}
+
+.titulo {
+    padding-top: 7%;
+}
+
+.texto-inicio {
+    padding: 5% 15%;
+    text-align: justify;
+    font-size: 1.8rem;
+    padding-top: 3%;
+    padding-bottom: 6.5%;
+}
+
+.btn {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: var(--clr-Principal) !important;
+    color: var(--clr-Fondo);
+    transition: color 0.3s;
+}
+
+.btn:hover {
+    color: var(--clr-Secundario);
+}
+
+.btn-lg {
+    font-weight: 600;
+    font-size: 2rem;
+    transition: color 0.3s;
+    transition: transform 0.3s;
+    padding-top: 2.3%;
+    padding-left: 0.7%;
+    margin-left: 47%;
+    color: var(--clr-Aside-Texto);
+}
+
+.btn-lg:hover {
+    color: var(--clr-Aside-Texto);
+    transform: scale(1.2);
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: var(--clr-Secundario);
+    color: var(--clr-Secundario);
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    filter: invert(100%);
+}
+
+#clientes {
+    color: var(--clr-Texto);
+    padding-bottom: 10%;
+    scroll-margin-top: 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.clientes-imagen {
+    width: 11rem;
+    height: 11rem;
+    margin: 25px;
+}
+
+.clientes-texto {
+    padding-top: 4.5%;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.text-footer {
+    color: var(--clr-Fondo);
+}
+
+.text-footer-cana {
+    color: var(--clr-Fondo);
+    font-weight: 600;
+}
+
+.text-footer-redes {
+    color: var(--clr-Fondo);
+    font-weight: 600;
+    padding-left: 16px;
+}
+
+.qr {
+    border-radius: .3rem;
+    display: flex;
+    top: 30%;
+}
+
+.texto-terminos {
+    font-size: 1rem;
+}
+
+.redes-sociales {
+    color: var(--clr-Fondo);
+    font-weight: 600;
+}
+
+.redes-sociales:hover {
+    color: var(--clr-Secundario);
+}
+
+
+
+/* media-queries */
+
+/* PC */
+@media (min-width: 1450px) and (max-width: 1680px) {
+
+    * {
+        font-size: 20px;
+    }
+
+    .navbar {
+        padding-top: 2.5px;
+        padding-bottom: 2.5px;
+    }
+
+    .btn {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        background-color: var(--clr-Principal) !important;
+        color: var(--clr-Fondo);
+        transition: color 0.3s;
+    }
+
+    .btn-lg {
+        font-weight: 600;
+        font-size: 2rem;
+        transition: color 0.3s;
+        transition: transform 0.3s;
+        padding-top: 2%;
+        padding-left: 0.7%;
+        margin-left: 47%;
+        color: var(--clr-Aside-Texto);
+    }
+
+    footer {
+        height: 100%;
+        width: 100%;
+        gap: 0;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 968px) {
+    h1 {
+        text-align: center;
+    }
+
+    #numero {
+        top: 87%;
+        position: absolute;
+        margin-right: 66%;
+    }
+
+    .carousel-item {
+        width: 130%;
+        text-align: start;
+    }
+
+    .inicio,
+    .texto-inicio {
+        padding-bottom: 0%;
+    }
+
+    .titulo {
+        padding-top: 10%;
+        padding-bottom: 6%;
+    }
+
+    .arrow-up,
+    .arrow-down,
+    .btn,
+    .btn-lg {
+        visibility: hidden;
+    }
+
+    .texto-testimonios {
+        padding-right: 25%;
+    }
+
+    .row {
+        gap: 40%;
+    }
+
+    footer {
+        gap: 0;
+    }
+
+    .clientes-imagen {
+        width: 90%;
+        margin-inline-start: 120%;
+    }
+
+    .container-fluid-footer {
+        align-items: flex-start;
+        text-align: center;
+        padding-inline-end: 5%;
+    }
+
+    .qr {
+        padding-inline-start: 6%;
+        margin-left: 37px;
+        border-radius: 0;
+    }
+
+    .marca-mexicana {
+        padding-inline-end: -6%;
+        padding-right: 45px;
+    }
+
+    .text-footer-redes {
+        padding-right: 34%;
+    }
+
+    .redes-sociales {
+        padding-left: 13%;
+    }
+
+    .redes-sociales-responsive {
+        padding-left: 0;
+    }
+}
+
+/* Celular */
+@media (min-width: 350px) and (max-width: 767.98px) {
+    h1 {
+        text-align: center;
+    }
+
+    #numero {
+        top: 87%;
+        position: absolute;
+        margin-right: 59%;
+    }
+
+    .titulo {
+        padding-top: 16%;
+    }
+
+    .texto-inicio {
+        font-size: 1.3rem;
+        text-align: justify;
+    }
+
+    .arrow-up,
+    .arrow-down,
+    .btn,
+    .btn-lg {
+        visibility: hidden;
+    }
+
+    .clientes-imagen {
+        width: 100%;
+        padding-right: 25%;
+        padding-left: 10%;
+    }
+
+    .imagen-angel {
+        width: 100%;
+        padding-right: 1%;
+        padding-left: 4%;
+        margin-inline-start: 19%;
+    }
+
+    .imagen-estrella {
+        width: 100%;
+        padding-right: 1%;
+        padding-left: 4%;
+        margin-inline-start: 19%;
+    }
+
+    .clientes-texto {
+        padding-bottom: 8%;
+    }
+
+    .container-fluid-footer {
+        text-align: center;
+    }
+
+    footer {
+        gap: 0;
+    }
+
+    .qr {
+        margin-left: 21.5%;
+        border-radius: 0;
+    }
+
+    .texto-terminos,
+    .text-footer {
+        margin-left: 8%;
+    }
+
+    .marca-mexicana {
+        padding-inline-end: 7%;
+    }
+
+    .text-footer-redes {
+        color: var(--clr-Fondo);
+        font-weight: 600;
+        margin-right: 8px;
+    }
+
+    .bi {
+        justify-content: center;
+    }
+
+    .cana-footer {
+        margin-top: 15px;
+        margin-left: 29%;
+        margin-bottom: 15px;
+    }
+
+    .text-footer-redes{
+        padding-right: 36%;
+    }
+
+    .redes-sociales{
+        margin-left: 37%;
+    }
+
+    .redes-sociales-responsive {
+        color: var(--clr-Fondo);
+        margin-left: 0;
+    }
+}
